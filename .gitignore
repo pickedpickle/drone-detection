@@ -1,0 +1,39 @@
+# --- AI-инструменты (история/кэш не в git) ---
+.aider*
+
+# --- Лаунчеры Claude (таскаются из папки в папку; cc-glm.bat содержит токен!) ---
+cc.bat
+cc-glm.bat
+
+# --- Python ---
+__pycache__/
+*.pyc
+
+# --- Веса моделей (тяжёлые, живут отдельно от git) ---
+*.pt
+*.onnx
+best_1280_n_ncnn_model/
+
+# --- Датасеты, архивы, прогоны (гигабайты) ---
+final/
+runs/
+huggingface_downloads/
+*.zip
+aot_groundtruth.json
+manifest_*.jsonl
+valid_encounters.*
+*.cache
+
+# --- Медиа-вывод (пересоздаётся) ---
+*.mp4
+
+# --- Дампы разговоров ---
+conversation-*.txt
+
+# --- СЕКРЕТЫ и личное (НЕ публиковать: токены, IP, ssh, контекст) ---
+CLAUDE.md
+.claude/
+*.sdp
+download/download_hf_cli.ps1
+download/download_hf_cli.sh
+download/download_hf_with_token.py
