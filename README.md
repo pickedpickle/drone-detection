@@ -1,5 +1,7 @@
 # Drone Detection Post
 
+**English** | [Русский](README.ru.md)
+
 Early-warning **drone detection post** — a stationary observation point that detects aerial drones (quadcopters, fixed-wing such as Shahed/Geran) on RTSP camera streams and raises a hardware alert. **Defensive: detection + alerting only, no countermeasure.**
 
 Personal, non-commercial research project by a self-taught developer. Work in progress.
